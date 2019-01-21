@@ -15,19 +15,19 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_44B054A3F08F4470B979D5DE53E4AF3D"
+        "MsmKey" = "8:_21DC7144A891466B865258768DF97C91"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_5B6515D8C63834C39EBAF6E7572ADAD3"
-        "OwnerKey" = "8:_B7073161A87245ACBE42DF951F0E7E04"
+        "OwnerKey" = "8:_21DC7144A891466B865258768DF97C91"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_B7073161A87245ACBE42DF951F0E7E04"
+        "MsmKey" = "8:_6F3A22BEE59F478A9CDA37E65E26BD1C"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -40,7 +40,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_B7073161A87245ACBE42DF951F0E7E04"
+        "OwnerKey" = "8:_21DC7144A891466B865258768DF97C91"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -68,6 +68,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.1"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.6.1"
+                    }
+                }
             }
         }
         "Release"
@@ -122,10 +130,21 @@
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_44B054A3F08F4470B979D5DE53E4AF3D"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_21DC7144A891466B865258768DF97C91"
             {
-            "SourcePath" = "8:..\\Winform\\bin\\Debug\\Winform.exe.config"
-            "TargetName" = "8:Winform.exe.config"
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Winform, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_21DC7144A891466B865258768DF97C91"
+                    {
+                    "Name" = "8:Winform.exe"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:..\\Winform\\bin\\Debug\\Winform.exe"
+            "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_BCD33DAA748D493CB36BEF803DD51F8E"
             "Condition" = "8:"
@@ -173,21 +192,10 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_B7073161A87245ACBE42DF951F0E7E04"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6F3A22BEE59F478A9CDA37E65E26BD1C"
             {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Winform, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_B7073161A87245ACBE42DF951F0E7E04"
-                    {
-                    "Name" = "8:Winform.exe"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:..\\Winform\\bin\\Debug\\Winform.exe"
-            "TargetName" = "8:"
+            "SourcePath" = "8:..\\Winform\\bin\\Debug\\Winform.exe.config"
+            "TargetName" = "8:Winform.exe.config"
             "Tag" = "8:"
             "Folder" = "8:_BCD33DAA748D493CB36BEF803DD51F8E"
             "Condition" = "8:"
@@ -261,7 +269,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Setup"
         "ProductCode" = "8:{E47FEB44-2367-4C09-894D-5B0DDBC61B0B}"
-        "PackageCode" = "8:{A452D497-50EF-4ACC-A197-5A2CA0ED56E1}"
+        "PackageCode" = "8:{17D8014D-5C88-4F50-96A9-08F523999C2C}"
         "UpgradeCode" = "8:{0224FF29-19AD-4578-9C34-EA312C20184B}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -381,7 +389,7 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_07FED4F526C64134A2F6DB18647C0D15"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_C965D5372F364DD38F69ADCF4D185190"
             {
             "Name" = "8:개발윈폼"
             "Arguments" = "8:"
@@ -389,7 +397,7 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_B7073161A87245ACBE42DF951F0E7E04"
+            "Target" = "8:_21DC7144A891466B865258768DF97C91"
             "Folder" = "8:_26C34D8C81B5476BBA8A1EB04C84C6AD"
             "WorkingFolder" = "8:_BCD33DAA748D493CB36BEF803DD51F8E"
             "Icon" = "8:"
