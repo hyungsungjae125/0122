@@ -15,19 +15,19 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_8525E40C71A14054B38C12CB27A19CF3"
+        "MsmKey" = "8:_553135A1EBA146858D7A5BE0F7A0F887"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_853D1A791DAB8E641C7E9C6A66E449E3"
-        "OwnerKey" = "8:_8525E40C71A14054B38C12CB27A19CF3"
+        "OwnerKey" = "8:_553135A1EBA146858D7A5BE0F7A0F887"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_EFC72BF624A04BA2B8ADDE4BFCC75D7A"
+        "MsmKey" = "8:_F7BFB11C3D58420881A0C060D590EC0A"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -40,7 +40,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_8525E40C71A14054B38C12CB27A19CF3"
+        "OwnerKey" = "8:_553135A1EBA146858D7A5BE0F7A0F887"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -61,6 +61,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -77,6 +85,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -106,14 +122,14 @@
         }
         "File"
         {
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_8525E40C71A14054B38C12CB27A19CF3"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_553135A1EBA146858D7A5BE0F7A0F887"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:Winform, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_8525E40C71A14054B38C12CB27A19CF3"
+                    "_553135A1EBA146858D7A5BE0F7A0F887"
                     {
                     "Name" = "8:Winform.exe"
                     "Attributes" = "3:512"
@@ -168,7 +184,7 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_EFC72BF624A04BA2B8ADDE4BFCC75D7A"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F7BFB11C3D58420881A0C060D590EC0A"
             {
             "SourcePath" = "8:..\\Winform\\bin\\Debug\\Winform.exe.config"
             "TargetName" = "8:Winform.exe.config"
@@ -365,15 +381,15 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_176FB27F662E4E3DA539996B0766C9DF"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_65F99519E31C4EFCAC8EA2F1B78D9E9A"
             {
-            "Name" = "8:운영윈폼.exe"
+            "Name" = "8:운영윈폼"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_8525E40C71A14054B38C12CB27A19CF3"
+            "Target" = "8:_553135A1EBA146858D7A5BE0F7A0F887"
             "Folder" = "8:_765C81EA31504A1881FEDEE9017DB0D6"
             "WorkingFolder" = "8:_2272184FE89044FC9FD3716E153B08D2"
             "Icon" = "8:"
