@@ -30,7 +30,7 @@ namespace server
                 Console.WriteLine("{0} , {1}", jp.Name, jp.Value);
             }
             string connStr = string.Format("server={0};user={1};password={2};database={3}", map["server"].ToString(), map["user"].ToString(), map["password"].ToString(), map["database"].ToString());//strConnection1;
-            Console.WriteLine("DB접속정보 ==> "+connStr);
+            //Console.WriteLine("DB접속정보 ==> "+connStr);
             MySqlConnection conn = new MySqlConnection(connStr);
 
             try

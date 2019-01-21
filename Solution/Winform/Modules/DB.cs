@@ -23,17 +23,6 @@ namespace Winform.Modules
             client = new WebClient();
             client.Headers.Add("user-agent", "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.0.3705;)");
             client.Encoding = Encoding.UTF8;
-
-            string path = "/public/IPinfo.json";
-            string result = new StreamReader(File.OpenRead(path)).ReadToEnd();
-            JObject jo = JsonConvert.DeserializeObject<JObject>(result);
-            Hashtable map = new Hashtable();
-            foreach (JProperty jp in jo.Properties())
-            {
-                map.Add(jp.Name, jp.Value);
-            }
-            Program.url = string.Format("http://{0}/", map["server"].ToString());
-            Console.WriteLine("DB접속정보 ==> " + Program.url);
         }
         public ListViewItem[] Select()
         {

@@ -19,6 +19,6 @@ namespace Winform
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Main());
         }
-        public static string url = "";
+        public static string url = "http://192.168.3.140/";
     }
 }
