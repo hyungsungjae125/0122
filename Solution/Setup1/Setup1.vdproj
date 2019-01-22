@@ -15,20 +15,20 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_1E79CD7C6B2D49A7BDBD33A8F828FF78"
+        "MsmKey" = "8:_0535A4280BC1472092DFE101B619CECF"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_4FA0ACF76605472BA7EF84418F461CD7"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_853D1A791DAB8E641C7E9C6A66E449E3"
-        "OwnerKey" = "8:_E2D451FECAD44993B35A3C2B0BD8326F"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_E2D451FECAD44993B35A3C2B0BD8326F"
-        "OwnerKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_4FA0ACF76605472BA7EF84418F461CD7"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -40,7 +40,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_E2D451FECAD44993B35A3C2B0BD8326F"
+        "OwnerKey" = "8:_4FA0ACF76605472BA7EF84418F461CD7"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -138,10 +138,41 @@
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_1E79CD7C6B2D49A7BDBD33A8F828FF78"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0535A4280BC1472092DFE101B619CECF"
             {
             "SourcePath" = "8:..\\Winform\\bin\\Debug\\Winform.exe.config"
             "TargetName" = "8:Winform.exe.config"
+            "Tag" = "8:"
+            "Folder" = "8:_2272184FE89044FC9FD3716E153B08D2"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_4FA0ACF76605472BA7EF84418F461CD7"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Winform, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_4FA0ACF76605472BA7EF84418F461CD7"
+                    {
+                    "Name" = "8:Winform.exe"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:..\\Winform\\bin\\Debug\\Winform.exe"
+            "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_2272184FE89044FC9FD3716E153B08D2"
             "Condition" = "8:"
@@ -187,37 +218,6 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_E2D451FECAD44993B35A3C2B0BD8326F"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Winform, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_E2D451FECAD44993B35A3C2B0BD8326F"
-                    {
-                    "Name" = "8:Winform.exe"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:..\\Winform\\bin\\Debug\\Winform.exe"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_2272184FE89044FC9FD3716E153B08D2"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
         }
@@ -397,15 +397,15 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_0CDAFBCD9AF248BFB6747219C1ED6DB5"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_AA9782A919284E27B1F878C747445847"
             {
-            "Name" = "8:운영윈폼"
+            "Name" = "8:윈폼"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_E2D451FECAD44993B35A3C2B0BD8326F"
+            "Target" = "8:_4FA0ACF76605472BA7EF84418F461CD7"
             "Folder" = "8:_765C81EA31504A1881FEDEE9017DB0D6"
             "WorkingFolder" = "8:_2272184FE89044FC9FD3716E153B08D2"
             "Icon" = "8:"
