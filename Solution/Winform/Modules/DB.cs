@@ -97,7 +97,7 @@ namespace Winform.Modules
             collection.Add("nTitle", nTitle);
             collection.Add("nContents", nContents);
             collection.Add("mName", mName);
-
+            
             string url = Program.url + "update";
             string method = "POST";
             byte[] result = client.UploadValues(url, method, collection);
