@@ -26,24 +26,12 @@ namespace Winform.Controller.cs
         public MainController(Form parentForm)
         {
             this.parentForm = parentForm;
-            GetUrl();
+            
             comm = new Commons();
             db = new DB();
             getView();
         }
-        private void GetUrl()
-        {
-            string path = "/public/IPinfo.json";
-            string result = new StreamReader(File.OpenRead(path)).ReadToEnd();
-            JObject jo = JsonConvert.DeserializeObject<JObject>(result);
-            Hashtable map = new Hashtable();
-            foreach (JProperty jp in jo.Properties())
-            {
-                map.Add(jp.Name, jp.Value);
-                Console.WriteLine("{0} , {1}", jp.Name, jp.Value);
-            }
-            Program.url = string.Format("http://{0}/", map["server"].ToString());
-        }
+        
         private void getView()
         {
             hashtable = new Hashtable();
